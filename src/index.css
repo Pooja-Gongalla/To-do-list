@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align:center;
+  margin-top:100px;
+}
+h1{
+  font-size:4rem;
+  color: black
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding:10px 20px;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  transition:background-color 0.5 ease;
+}
+.add-button{
+  background-color: green;
+  margin-left: 10px;
+}
+.delete-button
+{
+  background-color: red;
+  margin-right: 10px;
+  border-color: black;
+  border-radius:5px;
+  width:100px;
+  margin-right: 10px;
+  padding:30px 30px;
+}
+.move-button-up
+{
+    background-color: blue;
+  border-color: black;
+  border-radius:5px;
+  width:100px;
+  margin-right: 10px;
+ 
+}
+.move-button-buttom
+{
+  background-color: blue;
+  border-color: black;
+  border-radius:5px;
+  width:100px;
+  margin-left: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input-type
+{
+     font-size:20px;
+     border-radius: 5px;
+     padding: 16px 12px;
+     border: 2px solid black;
+     color: gray;
+     width:500px;
 }
+ol
+{
+  padding:0;
+}
+li
+{
+    font-size: 2rem;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 3px solid rgb(242, 237, 237);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .text
+  {
+    flex:1;
+  }
+  .delete-button
+  {
+    padding:8px 12px;
+    font-size:1.4rem;
+    margin-left:10px;
+  }
